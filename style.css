@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(241, 223, 226);
+}
+
+.navbar-title {
+    font-family: Pacifico, cursive;
+    color: white;
+}
+
+.carousel-item p {
+    font-size: larger;
+}
+
+
+#sobre h3,#procedimentos h2,#galeria h2 {
+    font-family: Pacifico, cursive;
+    color: rgb(224, 83, 107);
+}
+
+#sobre {
+    margin-bottom: 150px;
+}
+
+
+#sobre p {
+    font-size: large;
+}
+
+.bi-star-fill {
+    color: rgb(180, 156, 19);
+}
+
+.carousel-item img {
+    background-color: red;
+    width: 100%;
+    height: auto;
+}
+
+#feedbacks,#contato {
+    background-color: pink;
+}
+
+.feedback-title {
+    background: linear-gradient(rgb(224, 125, 141),pink);
+    font-family: Pacifico, cursive;
+    color: rgb(224, 83, 107);
+}
+
+#contato h2 {
+    font-family: Pacifico, cursive;
+    color: rgb(224, 83, 107);
+}
+
+header {
+    background-color: rgb(224, 83, 107);
+}
+
+.feedback-text {
+    font-style: italic;
+}
+
+.nav-link {
+    color: white;
+}
+
+#sobre img {
+    border-radius:50%;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.nav-link.active {
+    background-color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-galeria .nav-link.active:hover {
+    color: #fff;
+}
+
+#contato button {
+    background-color: #fff;
+    color: rgb(224, 83, 107);
+}
+
+.nav-galeria .nav-link:hover {
+    color: rgb(224, 83, 107);
+}
+
+
+.nav-galeria .nav-link.active
+{
+    background-color: rgb(224, 83, 107);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(224, 83, 107);
+}
+
+.text-colored {
+    color: rgb(224, 83, 107);
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.tab-pane img {
+    height: 200px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
