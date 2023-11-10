@@ -27,7 +27,7 @@ body {
     font-size: large;
 }
 
-.bi-star-fill {
+.fa-star {
     color: rgb(180, 156, 19);
 }
 
@@ -121,8 +121,41 @@ header {
     display: inline;
 }
 
+.rounded-circle {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#carouselFeedbackControls {
+    min-height: 664px;
+}
+
+footer {
+    background-color: #e0536b;
+} 
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover,
+footer a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width:1023px) {
+    #carouselFeedbackControls {
+        min-height: 692px;
+    }
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
+    }
+    #carouselFeedbackControls {
+        min-height: 902px;
     }
 }
